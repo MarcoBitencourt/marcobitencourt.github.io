@@ -1,30 +1,139 @@
+1 body {
+margin:0;
+5 h1 {
+font-family:*comic-sans',sans-serif;
+font-weight:400;
+letter-spacing:2px;
+font-size:48px;
+10 7
+11
+12 .header {
+13
+position:relative;
+14
+15
+text-align:center;
+background: linear-gradient(90deg, rgba(31,0,36,100) 0%, rgba(255,0,67,100) 100%);
+16
+color:white;
+17 }
+18
+19 .inner-header {
+20
+height:65vh;
+21
+width:100%;
+22
+margin: 0;
+23
+padding:0;
+24 }
 
-.c-loader {
-  border: 6px solid #e5e5e5;
-  border-top-color: #51d4db;
-  height: 50px;
-  width: 50px;
-}
 
-body {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  min-height: 100vh;
-  transform: scale(5);
-}
 
-.c-loader {
-  animation: is-rotating 1s infinite;
-  border: 6px solid #e5e5e5;
-  border-radius: 50%;
-  border-top-color: #51d4db;
-  height: 50px;
-  width: 50px;
-}
 
-@keyframes is-rotating {
-  to {
-    transform: rotate(1turn);
-  }
-}
+
+25
+26 .flex { /*Flexbox para containers*/
+27
+28
+29
+30
+display: flex;
+justify-content: center;
+align-items: center:
+text-align: center;
+31
+32
+33
+.waves
+34
+35
+36
+37
+38
+position:relative;
+width: 100%;
+height: 15vh;
+margin-bottom:-7px;
+min-height:100px;
+39
+max-height:150px;
+40 }
+41
+ucontent
+43
+44
+position:relative;
+height:20vh;
+45
+46
+text-align:center;
+background-color:white;
+
+
+
+
+
+
+51 .parallax > use
+animation: move-forever 25s cubic-Dezier
+infinite;
+53 }
+54 .parallax > use:nth-child(1) f
+55
+56
+animation-delay:-2s;
+animation-duration:7s;
+57 }
+58 .parallax > use:nth-child(2) f
+59
+animation-delay:-3s;
+60
+animation-duration:10s;
+61 }
+62 .parallax > use:nth-child(3) f
+63
+animation-delay:-4S;
+animation-duration:135;
+65 }
+66 • parallax > use:nth-child(4) f
+67
+animation-delay:-5s;
+68
+animation-duration:20s;
+69 }
+7© @keyframes move-forever
+71
+0% {
+72
+transform:translate3d(-90px,0,0);
+73
+74
+100% (
+75
+transform:
+O
+© Curtido por brasilcode_ e
+
+
+
+
+
+
+78 *Encolhimento para mobilex,
+79 amedia (max-width: 768Dx) f
+.waves
+81
+82
+height:40px;
+min-height:40px;
+84
+85
+86
+87
+.content {
+height:30vh;
+font-size:24px;
+89
+90
